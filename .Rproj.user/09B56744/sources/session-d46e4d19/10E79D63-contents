@@ -1,0 +1,17 @@
+---
+title: "Hello world"
+author: "Shawn Zhou"
+date: "2024-01-07"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is a markdown file
+This is shawn zhou 's assignment for data science course in coursera.
+```{r print, include=FALSE}
+print("Hello world")
+```
+
